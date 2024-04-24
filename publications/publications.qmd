@@ -1,0 +1,87 @@
+---
+title: "Publications"
+listing:
+  - id: published-papers
+    include: 
+        type: "Published"
+    contents: papers.yaml
+    template: papers.ejs
+    #filter-ui: true
+    sort: "date desc" 
+    sort-ui: false
+    #categories: false
+
+  - id: published-chapters
+    include: 
+        type: "Chapter"
+    contents: papers.yaml
+    template: papers.ejs
+    #filter-ui: true
+    sort: "date desc" 
+    sort-ui: false
+    #categories: false
+
+---
+
+For the latest publications see [Google Scholar](https://scholar.google.com/citations?user=ys2YCxIAAAAJ&hl=en)
+
+
+## Papers
+
+:::{#published-papers}
+:::
+
+
+## Book Chapters
+
+:::{#published-chapters}
+:::
+
+
+## Research Presentations
+
+* Gebodh N, Datta A, Bikson M. A Machine Learning Framework of Closed-loop Neuromodulation Applied to Sustained Attentional Enhancement. Poster session presented at Military Health System Research Symposium; 2022 Sep 12- 15; Kissimmee, FL. 
+
+* Gebodh N, Miskovic V, Laszlo S, Datta A, Bikson M. Deep learning framework for non-invasive closed-loop neuromodulation for attention. Poster session presented at Neuroergonomics & NYC Neuromodulation; 2022 Jul 28- Aug 1; New York, NY. 
+
+* Sharma M, Bhaskar V, Yang L, Gebodh N, FallahRad M, Zhang T, Esteller R, Martin J, Bikson M.  Evoked Synaptic Excitatory Potentials (ESAPs): A novel electrophysiological biomarker for Spinal Cord Stimulation. Poster session presented at Neuroergonomics & NYC Neuromodulation; 2022 Jul 28- Aug 1; New York, NY. 
+
+* Gebodh N, Bikson M. A Machine Learning Based Closed-Loop Neuromodulation Framework.  Poster session presented at The International Neuromodulation Society; 2022 May 21-26; Barcelona, Spain. Doi: https://doi.org/10.1016/j.neurom.2022.08.002
+
+* Gebodh N, Esmaeilpour Z, Datta A, Bikson M. A novel approach to closed-loop neuromodulation with machine learning. Poster session presented at 4th International Brain  Stimulation Conference; 2021 Dec 7-10;Charleston,South Carolina. Doi: https://doi.org/10.1016/j.brs.2021.10.235
+
+* Gebodh N, Esmaeilpour Z, Datta A, Bikson M. A large open source neuromodulation dataset of concurrent EEG, ECG, behavior, and transcranial electrical stimulation. Poster session presented at 4th International Brain  Stimulation Conference; 2021 Dec 7-10;Charleston,South Carolina. Doi: https://doi.org/10.1016/j.brs.2021.10.108  
+
+* Gebodh N, Vacchi L, Adair D, Esmaeilpour Z, Poltorak A, Poltorak V, Bikson M. Modulation of Sleepiness and Physiology with Brain-Derived and Narrow-Band tACS. Poster session presented at 2019 Neuromodulation: The Science and NYC Neuromodulation Joint Meeting; 2019 Oct 2-5; Napa, California.  
+
+* Vacchi L, Gebodh N, Adair D, Unal G, Poltorak A,  Poltorak V, Bikson M. Transcranial Endogenous Sleep-Derived waveform to induce sleepiness. Poster session presented at The Annual Meeting of Milan Center for Neuroscience; 2018 Nov 21; Milan, Italy.
+
+* Gebodh N, Adair D, Esmaeilpour Z, Chelette K, Dmochowski J, Woods A, Kappenman E, Bikson M. Failure of Conventional Signal Processing Techniques to Remove “Physiological” Artifacts from EEG During tDCS. Poster session presented at 2018 NYC Neuromodulation Conference and NANS Summer Series; 2018 Aug 24-26; New York, NY.  
+
+* Meiron O, Gale R, Namestnic J, Bennet-Back O, David J, Gebodh N, Adair D, Esmaeilpour Z, Bikson M. Attenuation of pathological EEG features in nonatal electroclinical syndromes: HD-tDCS in catastrophic epilepsies. Poster session presented at Brain Stimulation: Basic, Translational, and Clinical Research in Neuromodulation; 2018 Aug 24-26; New York, NY.
+
+* Gebodh N, Vacchi L, Adair D, Unal G, Poltorak A,  Poltorak V, Bikson M. Replay of endogenous sleep rhythms to produce sleepiness. Poster session presented at 2018 NYC Neuromodulation Conference and NANS Summer Series; 2018 Aug 24-26; New York, NY. Doi: https://doi.org/10.1016/j.brs.2018.12.180  
+
+* Gebodh N, Adair D, Esmaeilpour Z, Chelette K, Dmochowski J, Woods A, Kappenman E, Bikson M. Physiologic artifacts when combining EEG and tDCS. Poster session presented at 2nd International Brain  Stimulation Conference; 2017 Mar 5-8; Barcelona, Spain.  
+
+* Gebodh N, Adair D, Esmaeilpour Z, Chelette K, Dmochowski J, Woods A, Kappenman E, Bikson M. Modulation of physiologic artifacts during concurrent tDCS and EEG. Poster session presented at 6th International Conference on Transcranial Brain Stimulation; 2016 Sept 7-10; Gottingen, DE.  
+
+* Gebodh N, Castillo L, Truong D, Bikson M, Shani-Hershkovich R, Weiss M, Laufer I, Reches A, Peremen Z, Geva A, Parra LC, and Fregni F. Clinically effective treatment of fibromyalgia pain with HD-tDCS – Phase II open-label dose-optimization. Poster session presented at Military Health Research Systems Symposium; 2015 Aug. 16-21; Ft. Lauderdale, FL. 
+
+* Gebodh N, Vanegas I, Kelly S. Characterization of the effects of stimulus size and contrast on the initial afferent response in human primary visual cortex. Poster session presented at Society for Neuroscience; 2014 Nov. 15-19; Washington DC.  
+
+* Vanegas I, Blangero A, Gebodh N, Ali A, Kelly S. Task-dependent attentional modulation of initial afferent activity in human primary visual cortex. Poster session presented at Society for Neuroscience; 2014 Nov. 15-19; Washington DC. 
+
+
+
+## Ad Hoc Review
+
+* Brain Stimulation   
+* Sleep Medicine     
+* PLOS Comp Bio    
+* J.NeuroEng & Rehab
+* NeuroImage
+* Neuropsychologia
+* Applied Intelligence 
+* Psychophysiology
+* Hemodialysis Intl

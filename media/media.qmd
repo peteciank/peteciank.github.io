@@ -1,0 +1,30 @@
+---
+title: "Talks & Media"
+
+
+---
+
+## Talks & Teaching
+
+* NYC Neuromodulation & Neuroergonomics Conference 2022, Deep learning framework for non-invasive closed-loop neuromodulation for attention, Invited Talk, New York NY, Jul. 2022
+* Neuroergonomics Conference 2021,Introduction to practical methods in low-intensity transcranial Electrical Stimulation, Workshop, Virtual, Sep. 2021 
+* NYC Neuromodulation 2020, M/EEG with noninvasive brain stimulation (NIBS): Artifacts, Modeling, and Removal, Invited Talk, Virtual, Apr. 2020
+* Neuromodulation: The Science, Applying HD-tES: A Practical Guide, Workshop, Napa CA, Oct. 2019
+* ANT neuro, Live application of tDCS/EEG: common problems and solutions, Invited Talk, EEG-tDCS & EEG-TMS methodology in research and clinical research settings, New York NY Jul. 2017  
+* The City College of New York, Electrophysiology: theory, practical application, and artifacts, Invited Talk, Biomedical Instrumentation, New York NY, Mar. 2017 
+* NYC Neuromodulation 2017, A practical guide to combining HD-tDCS and EEG, Invited Talk, New York NY, Jan. 2017 
+* Advanced Science Research Center, CUNY, Outdoor EEG and Concurrent Environmental Monitoring, Invited Talk, New York NY, Oct. 2016 
+* The City College of New York, Biostatistics and research methods, Graduate Teaching, New York NY, 2015 
+* The City College of New York, An Introduction to MATLAB and Data Visualization, Graduate Teaching, New York NY, 2015 
+* Chegg, Math for Engineers, Data Analysis, and Programming, Tutoring, Virtual,  2013 
+* The City College of New York, A practical guide to 3D printing, Zahn Center NYC, Invited Talk, New York NY, Jun. 2013 
+
+
+
+## Media
+* [NIH G-RISE Research Highlight](https://www.youtube.com/watch?v=FJduDo_SfMo), CCNY Division of Science, 2023
+* [Technology Feature in Quartz: The Objects that Power the Global Economy](https://vimeo.com/231423594), pg. 64-65. 2017
+* [HBO Vice News](https://www.vice.com/en/article/wjz9q4/people-are-zapping-their-brains-with-electricity-hoping-to-enhance-creativity-and-intelligence), March 30, 2017
+* [Grove School of Engineering, City College of New York - Access to Excellence](https://www.youtube.com/watch?v=1mFGKg5kXiI), 2014
+* [M/EEG with noninvasive brain stimulation (NIBS): Artifacts, Modeling, and Removal](https://www.youtube.com/watch?v=816cZJyweLU),NYC Neuromodulation, 2020
+* [Neuromodec’s Top Impactful Neuromodulation articles of 2021](https://neuromodec.org/2021-neuromdodulation-highlights), Neuromodec, 2021

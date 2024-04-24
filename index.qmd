@@ -1,0 +1,76 @@
+---
+title: "Pedro Ciancaglini"
+subtitle: "Scrum Master / Project Manager / AI Citizen"
+image: https://github.com/peteciank/public_files/blob/main/mugshot_light.png?raw=true
+
+
+about:
+  id: hero-heading
+  template: trestles
+  #image: https://github.com/peteciank/public_files/blob/main/mugshot_light.png?raw=true
+  image-width: 15em
+  image-shape: round
+
+  links:
+    - icon: bi-mortarboard-fill
+      href: https://scholar.google.com/citations?user=ys2YCxIAAAAJ&hl  
+    - icon: bi bi-linkedin
+      href: https://www.linkedin.com/in/pedrociancaglini          
+    - icon: bi bi-twitter-x
+      href: https://twitter.com/peteciank
+    - icon: github
+      href: https://github.com/peteciank
+    - icon: bi bi-youtube
+      href: https://www.youtube.com/channel/UCXyZEefDuZFzZDdV40sXkpA    
+    - icon: envelope
+      text: "pedrociancaglini@gmail.com"
+      href: mailto:pedrociancaglini@gmail.com
+
+
+
+email-obfuscation: javascript
+---
+
+## Bio
+
+I currently work on building, understanding, and integrating machine learning/artificial intelligent systems with the Agile Project and Product Management in software development.
+
+I'm currently creating solutions using Machine Learning Models and Large Language Models to forecast effort, describe business requirements and create MVPs in just couple of days. 
+
+I'm interested in the intersection of machine learning, intelligent agents, and how this will impact health, education, economy and more. 
+
+I completed my MBA oriented in Artificial Intelligence work in Educational opportunities for people without higher education to get their first job. 
+
+My MBA was awarded by Hult International Business School. 
+
+
+## Experience
+
+-   [EY - Client Technology - EY Fabric](https://about.meta.com/realitylabs/)
+-   [ENGIE - Digital](https://www.usa.philips.com/healthcare)
+-   [Chevron - Global Support Services](https://soterixmedical.com/)/ [Google X](https://x.company/) (Collaboration)
+
+## Select Publications
+
+-   **The Impact of Toxic People in Organizations.** Pedro Ciancaglini; Link: <https://www.linkedin.com/posts/pedrociancaglini_leadership-agile-healthyworkplace-activity-7176223470710624256-NWPo?utm_source=share&utm_medium=member_desktop>
+
+-   **SMED to optimize processes to the next level.** Pedro Ciancaglini; Link: <https://www.linkedin.com/posts/pedrociancaglini_productdevelopment-agile-releasemanagement-activity-7173671676285513728-5XtS?utm_source=share&utm_medium=member_desktop>
+
+-   **Talkers versus Doers and their contribution to the organization.** Pedro Ciancaglini; Link: <https://www.linkedin.com/posts/pedrociancaglini_promotethedoers-leadership-accountability-activity-7166469198284550144-h0GC?utm_source=share&utm_medium=member_desktop>
+
+###### [See all publications here.](publications/publications.qmd)
+
+## Education
+
+Hult International Business School - Tech MBA oriented to AI , 
+</br>
+Henry Ford School - Associated Degree in Mechanics
+</br>
+
+#### Tech MBA
+
+Building an educational platform for underskilled people to access quality jobs using Machine Learning and Generative AI to create learning paths and goals, and adapted challenges without administrative intervention. 
+
+#### Associated in Mechanics
+
+IoT collection, machine learning forecast for digital twins in industry, to control emissions when devices offline, by an emsable of algorithms

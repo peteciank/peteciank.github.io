@@ -1,0 +1,83 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Pedro **Ciancaglini**"
+  favicon: favicon_1.svg
+  google-analytics: "G-VBN539W9NB"
+  twitter-card: 
+    creator: "@peteciank"
+    image: "https://github.com/peteciank/public_files/blob/main/mugshot_light.png?raw=true"
+  open-graph: true
+
+
+  navbar:
+    link-external-newwindow: true
+    link-external-icon: true
+    right:
+    - href: index.qmd
+      text: Home
+    - href: publications/publications.qmd
+    - href: media/media.qmd
+    - href: projects/index.qmd
+      text: Projects
+    - text: "Connect"
+      menu:
+      - icon: bi-mortarboard-fill
+        text: Google Scholar
+        href: https://scholar.google.com/citations?user=peteciank 
+        target: _blank
+      - icon: bi bi-linkedin
+        text: LinkedIn
+        href: https://www.linkedin.com/in/pedrociancaglini
+        target: _blank           
+      - icon: bi bi-twitter-x
+        text: Twitter(X)
+        href: https://twitter.com/peteciank
+        target: _blank
+      - icon: github
+        text: GitHub
+        href: https://github.com/peteciank
+        target: _blank
+      - icon: bi bi-youtube
+        text: YouTube
+        href: https://www.youtube.com/channel/peteciank
+        target: _blank
+      - icon: bi bi-butterfly
+        text: BlueSky
+        href: https://bsky.app/profile/peteciank
+        target: _blank   
+      - icon: envelope
+        text: "peteciank@gmail.com"
+        href: mailto:peteciank@gmail.com
+        target: _blank   
+
+  page-footer:
+    left: "© Pedro Ciancaglini, Made somewhere in the world, with a computer, cannot waranty by a person."
+
+  back-to-top-navigation: true
+
+
+
+
+format:
+  html:
+    link-external-newwindow: true
+    theme:
+      light: [cosmo,  styles/styles_light.scss]
+      dark:  [darkly, styles/styles_dark.scss]
+    css: styles.css
+    toc: true
+    toc_depth: 15
+    toc-expand: 6
+    toc_float: false
+    toc_smooth_scroll: true
+    toc_highlight: true
+    fig-align: center
+    navbar:
+      background: darkgray
+      link-external-newwindow: true
+    email-obfuscation: javascript
+
+

@@ -1,0 +1,296 @@
+###################################################################################################################################
+#Papers 
+
+- title: "A Scalable Framework for Closed-Loop Neuromodulation with Deep Learning"
+  type: "Published"
+  author: 
+    - Nigel Gebodh
+    - Vladimir Miskovic
+    - Sarah Laszlo
+    - Abhishek Datta
+    - Marom Bikson
+  date: 2023-01-20
+  year: 2023
+  preprint: "https://www.biorxiv.org/content/10.1101/2023.01.18.524615v1"
+  github: "https://github.com/ngebodh/GX_DL_Framework"
+  journal: "<em>BioRxiv</em>"
+  pdf: "https://www.biorxiv.org/content/10.1101/2023.01.18.524615v1.full.pdf"
+  doi: 10.1101/2023.01.18.524615v1
+  categories: 
+    - Machine Learning
+    - EEG
+    - ECG
+    - CNN
+
+
+- title: "Novel Evoked Synaptic Activity Potentials (ESAPs) Elicited by Spinal Cord Stimulation"
+  type: "Published"
+  author: 
+    - Mahima Sharma
+    - Vividha Bhaskar
+    - Lillian Yang
+    - Mohamad FallahRad
+    - Nigel Gebodh
+    - Tianhe Zhang
+    - Rosana Esteller
+    - John Martin
+    - Marom Bikson
+  date: 2023-01-01
+  year: 2023
+  journal: "<em>eNeuro</em>"
+  pdf: "https://www.eneuro.org/content/eneuro/10/5/ENEURO.0429-22.2023.full.pdf"
+  pubopen: "https://www.eneuro.org/content/10/5/ENEURO.0429-22.2023"
+  doi: 10.1523/ENEURO.0429-22.2023
+  categories: 
+    - Spinal Cord Stimulation
+    - eSAPS  
+
+
+
+
+- title: "Dataset of concurrent EEG, ECG, and behavior with multiple doses of transcranial electrical stimulation"
+  type: "Published"
+  author: 
+    - Nigel Gebodh
+    - Zeinab Esmaeilpour
+    - Abhishek Datta
+    - Marom Bikson
+  date: 2021-10-27
+  year: 2021
+  journal: "<em>Nature Scientific Data</em>"
+  pdf: "https://www.nature.com/articles/s41597-021-01046-y.pdf"
+  pubopen: "https://www.nature.com/articles/s41597-021-01046-y"
+  doi: 10.1038/s41597-021-01046-y
+  zenodo: "https://zenodo.org/records/4456079"
+  osf: "https://openneuro.org/datasets/ds003670/versions/1.1.0"
+  github: "https://github.com/ngebodh/GX_tES_EEG_Physio_Behavior"
+  figshare: "https://figshare.com/authors/Nigel_Gebodh/8797454"
+  categories: 
+    - EEG
+    - ECG
+    - Human Behavior
+    - Compensatory Tracking Task
+    - Dataset   
+
+
+- title: "Electrical stimulation of cranial nerves in cognition and disease"
+  type: "Published"
+  author: 
+    - Devin Adair
+    - Dennis Truong
+    - Zeinab Esmaeilpour
+    - Nigel Gebodh
+    - Helen Borges
+    - Libby Ho
+    - Douglas J. Bremmer
+    - Bashar W. Badran
+    - Vitaly Napadow
+    - Vincent P. Clark
+    - Marom Bikson
+  date: 2020-02-23
+  year: 2020
+  journal: "<em>Brain Stimulation</em>"
+  pdf: "https://www.sciencedirect.com/science/article/pii/S1935861X20300413/pdfft?md5=534694d19cce4283d952af63a38515de&pid=1-s2.0-S1935861X20300413-main.pdf"
+  pubopen: "https://doi.org/10.1016/j.brs.2020.02.019"
+  doi: 10.1016/j.brs.2020.02.019
+  categories: 
+    - Cranial Nerves
+    - Cognition
+    - Review
+
+
+- title: "Experimental-design Specific Changes in Spontaneous EEG and During Intermittent Photic Stimulation by High Definition Transcranial Direct Current Stimulation"
+  type: "Published"
+  author: 
+    - Vladimir Lazarev
+    - Nigel Gebodh
+    - Tiago Tamborino
+    - Marom Bikson
+    - Egas M Caparelli-Daquer
+  date: 2020-02-01
+  year: 2020
+  journal: "<em>Neuroscience</em>"
+  pdf: "https://nonagon-grouper-x4a7.squarespace.com/s/Experimental-design-Specific-Changes-in-Spontaneous-EEG-and-During-Intermittent-Photic-Stimulation-b.pdf"
+  pubopen: "https://doi.org/10.1016/j.neuroscience.2019.11.016"
+  doi: 10.1016/j.neuroscience.2019.11.016
+  categories: 
+    - EEG
+    - Visual Stimulation
+    - tDCS
+
+
+
+
+
+- title: "Inherent physiological artifacts in EEG during tDCS"
+  type: "Published"
+  author: 
+    - Nigel Gebodh
+    - Zeinab Esmaeilpour
+    - Devin Adair
+    - Kenneth Chelette
+    - Jacek Dmochowski
+    - Adam J. Woods
+    - Emily S. Kappenman
+    - Lucas C. Parra
+    - Marom Bikson
+  date: 2018-10-12
+  year: 2018
+  journal: "<em>NeuroImage</em>"
+  pdf: "./papers/Gebodh_2019_EEG_artifacts.pdf"
+  pubclosed: "https://doi.org/10.1016/j.neuroimage.2018.10.025"
+  doi: 10.1016/j.neuroscience.2019.11.016
+  categories: 
+    - EEG
+    - tDCS
+    - Artifacts
+    - PCA
+    - SVD
+
+
+- title: "Antiepileptic Effects of a Novel Non-invasive Neuromodulation Treatment in a Subject With Early-Onset Epileptic Encephalopathy: Case Report With 20 Sessions of HD-tDCS Intervention"
+  type: "Published"
+  author: 
+    - Oded Meiron
+    - Rena Gale
+    - Julia Namestnic
+    - Odeya Bennet-Back
+    - Nigel Gebodh
+    - Zeinab Esmaeilpour
+    - Vladislav Mandzhiyev
+    - Marom Bikson
+  date: 2019-05-28
+  year: 2019
+  journal: "<em>Frontiers in Neuroscience</em>"
+  pdf: "./papers/Merion_2019_HDtDCS_Epilepsy.pdf"
+  pubopen: "https://doi.org/10.3389/fnins.2019.00547"
+  doi: 10.3389/fnins.2019.00547
+  categories: 
+    - EEG
+    - tDCS
+
+
+
+- title: "Effects of stimulus size and contrast on the initial primary visual cortical response in humans"
+  type: "Published"
+  author: 
+    - Nigel Gebodh
+    - Marta Isabel Vanegas
+    - Simon P. Kelly
+  date: 2017-05-04
+  year: 2017
+  journal: "<em>Brain Topogr</em>"
+  pdf: "./papers/Gebodh_2017_EffectsStimSizeContrastOnV1_C1.pdf"
+  pubclosed: "https://doi.org/10.1007/s10548-016-0530-2"
+  doi: 10.1007/s10548-016-0530-2
+  categories: 
+    - EEG
+    - Visual Stimulation
+
+
+
+- title: "Clinically Effective Treatment of Fibromyalgia Pain With High-Definition Transcranial Direct Current Stimulation: Phase II Open-Label Dose Optimization"
+  type: "Published"
+  author: 
+    - Nigel Gebodh
+    - Laura Castillo-Saavedra 
+    - Marom Bikson
+    - Camilo Diaz-Cruz
+    - Rivail Brandao
+    - Livia Coutinho
+    - Dennis Truong
+    - Abhishek Datta
+    - Revital Shani-Hershkovich
+    - Michal Weiss
+    - Ilan Laufer
+    - Amit Reches
+    - Ziv Peremen
+    - Amir Geva
+    - Lucas C. Parra
+    - Felipe Fregni
+  date: 2015-10-05
+  year: 2015
+  journal: "<em>J. Pain</em>"
+  pdf: "https://www.sciencedirect.com/science/article/pii/S1526590015008846/pdfft?md5=41b1687d35f28db7b422834211180699&pid=1-s2.0-S1526590015008846-main.pdf"
+  pubopen: "https://doi.org/10.1016/j.jpain.2015.09.009"
+  doi: 10.1016/j.jpain.2015.09.009
+  categories: 
+    - EEG
+    - Pain
+    - tDCS
+    - Visual Stimulation
+
+
+
+###################################################################################################################################
+# Book Chapters
+
+
+- title: "Transcranial direct current stimulation among technologies for low-intensity transcranial electrical stimulation: classification, history, and terminology"
+  type: "Chapter"
+  author: 
+    - Nigel Gebodh
+    - Zeinab Esmaeilpour
+    - Devin Adair
+    - Pedro Schestattsky
+    - Felipe Fregni
+    - Marom Bikson
+  date: 2019-01-24
+  year: 2019
+  book: "<em>Practical guide to transcranial direct current stimulation</em>"
+  chapter: "Chapter 1"
+  pdf: "https://www.researchgate.net/profile/Zeinab-Esmaeilpour/publication/330603283_Transcranial_Direct_Current_Stimulation_Among_Technologies_for_Low-Intensity_Transcranial_Electrical_Stimulation_Classification_History_and_Terminology_Principles_Procedures_and_Applications/links/5c50ad8592851c22a398cf7e/Transcranial-Direct-Current-Stimulation-Among-Technologies-for-Low-Intensity-Transcranial-Electrical-Stimulation-Classification-History-and-Terminology-Principles-Procedures-and-Applications.pdf?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InNpZ251cCIsInBhZ2UiOiJwdWJsaWNhdGlvbiJ9fQ"
+  pubclosed: "https://doi.org/10.1007/978-3-319-95948-1_1"
+  doi: https://doi.org/10.1007/978-3-319-95948-1_1
+  categories: 
+    - EEG
+    - Pain
+    - tDCS
+    - Visual Stimulation
+
+
+- title: "Transcranial direct current stimulation integration with magnetic resonance imaging, magnetic resonance spectroscopy, near infrared spectroscopy imaging, and electroencephalography"
+  type: "Chapter"
+  author: 
+    - Adam J. Woods
+    - Marom Bikson
+    - Kenneth Chelette
+    - Jacek Dmochowski
+    - Anirban Dutta
+    - Zeinab Esmaeilpour
+    - Nigel Gebodh
+    - Michael A. Nitsche
+    - Charlotte Stagg 
+  date: 2019-01-24
+  year: 2019
+  book: "<em>Practical guide to transcranial direct current stimulation</em>"
+  chapter: "Chapter 11"
+  pdf: "./papers/Woods_2019_Chap11.pdf"
+  pubclosed: "https://doi.org/10.1007/978-3-319-95948-1_11"
+  doi: https://doi.org/10.1007/978-3-319-95948-1_11
+  categories: 
+    - EEG
+    - tDCS
+
+
+
+- title: "Transcranial Electrical Stimulation: transcranial Direct Current Stimulation (tDCS), transcranial Alternating Current Stimulation (tACS), transcranial Pulsed Current Stimulation (tPCS), and Transcranial Random Noise Stimulaiton (tRNS)"
+  type: "Chapter"
+  author: 
+    - Ingrid Moreno-Duarte
+    - Nigel Gebodh
+    - Pedro Schestatsky
+    - Berkan Guleyupoglu
+    - Davide Reato
+    - Marom Bikson
+    - Felipe Fregni
+  date: 2014-07-11
+  year: 2014
+  book: "<em>The Stimulated Brain</em>"
+  chapter: "Chapter 2"
+  pdf: "./papers/Moreno_2014_Chap1.pdf"
+  pubclosed: "https://doi.org/10.1016/B978-0-12-404704-4.00002-8"
+  doi: https://doi.org/10.1016/B978-0-12-404704-4.00002-8
+  categories: 
+    - EEG
+    - tDCS    

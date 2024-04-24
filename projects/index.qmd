@@ -1,0 +1,19 @@
+---
+title: "Projects"
+listing:
+  type: table
+  sort: 
+    - "date desc"
+  fields: [date, title, reading-time]
+  categories: true
+  feed:
+    type: full
+    title: "Nigel's Projects"
+    image: profile.png
+    categories: [R]
+comments: false
+format: 
+  html: 
+    footer: false
+---
+

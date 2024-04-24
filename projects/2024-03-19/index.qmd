@@ -1,0 +1,176 @@
+---
+title: "Interactive Neuromodulation Landscape"
+subtitle: "Exploring the hierarchy with different types of neuromodulation"
+author: "Nigel Gebodh"
+categories: [Neuromodulation, Brain Stim., tES]
+date: "2024-03-20"
+# reference-location: margin
+twitter-card:
+  card-style: summary_large_image
+  image: "landscape.png"
+  title: "Interactive Neuromodulation Landscape"  # less than 55 chars
+  description: "Exploring the hierarchy with different types of neuromodulation"  # less than 125 chars
+open-graph:   
+  image: "landscape.png"
+  title: "Interactive Neuromodulation Landscape"  # less than 55 chars
+  description: "Exploring the hierarchy with different types of neuromodulation"  # less than 125 chars
+back-to-top-navigation: false
+format: 
+  html:
+    page-layout: full
+---
+
+
+<img src="landscape.png" alt="Landscape. Image by DALL-E 3" width="100%" height="auto" style="border: none;"/>
+<figcaption>Image by DALL-E 3</figcaption>
+
+:::{#hero-heading}
+
+## What is this?
+This is an interactive mapping of different types of **neuromodulation** or **brain stimulation** techniques. 
+
+This mapping is based on my [book chapter](https://www.researchgate.net/publication/330603283_Transcranial_Direct_Current_Stimulation_Among_Technologies_for_Low-Intensity_Transcranial_Electrical_Stimulation_Classification_History_and_Terminology_Principles_Procedures_and_Applications).
+
+
+## What is neuromodulation?
+**Neuromodulation** is the action of interacting with or altering activity in the nervous system through the delivery of a stimulus. These stimuli can range from electrical currents, magnetic pulses, light, ultrasound, heat, etc. The terms neuromodulation and brain stimulation are often used interchangeably, although in some cases differences exist. 
+
+Check out [this deeper discussion on the difference](https://neuromodec.org/2020/07/what-is-the-difference-between-brain-stimulation-and-neuromodulation/#:~:text=Neuromodulation%20as%20such%20is%20a,lasting%20(e.g.%20therapeutic)%20change.).  
+
+
+## How do I use this?
+- Use the navigation buttons at the top to change the layout of the chart. 
+- To expand the chart categories click on the dropdown arrows. 
+- Click on the numbers on the upper right within each block to create a root mapping. 
+- Use the clear button to remove tree mapping.
+- You can drag the map around to fit your screen.
+- You can enter full screen mode.
+- You can export your selection with the buttons on top. 
+
+#### Feedback
+This is a work in progress and will be periodically updated. 
+Email me with any feedback.
+
+:::
+
+
+
+```{=html}
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-org-chart@3.1.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-flextree@2.1.2/build/d3-flextree.js"></script>
+
+<button onclick="chart.fit()">Fit ↔</button>
+<button onclick="chart.zoomIn()">+</button>
+<button onclick="chart.zoomOut()">­­-­</button>
+
+<button onclick="chart.layout('right').render().fit()">←</button>
+<button onclick="chart.layout('left').render().fit()">→</button>
+<button onclick="chart.layout('top').render().fit()">↓</button>
+<button onclick="chart.layout('bottom').render().fit()">↑</button>
+<button onclick="chart.clearHighlighting()">Clear</button>
+<button onclick="chart.collapseAll().fit()">CollapseAll</button>
+<button onclick="chart.expandAll().fit()">ExpandAll</button>
+
+
+<button onclick="chart.exportImg()">Export Current</button>
+<button onclick="chart.exportImg({full:true})">Export Full</button>
+<button onclick="chart.exportSvg()">Export SVG</button>
+<button onclick="downloadPdf(chart)">Export PDF</button>
+<button onclick="chart.fullscreen()">Full screen</button>
+
+
+
+ 
+
+
+
+<div class="chart-container"></div>
+<!-- <div id="chartDiv" class="chartDiv" style="max-width: 1000px;height: 1000px; margin:0 auto"></div> -->
+
+
+
+
+
+
+
+<script>
+
+
+  document.body.onclick = function (e) {
+    e = window.event ? event.srcElement : e.target;
+    if (
+        e.className
+    //   e.className &&
+    //   e.className.indexOf != null &&
+    //   e.className.indexOf('stimtype') != -1
+    ) {
+      const item = e.innerHTML;
+    //   const item = e.textContent;
+    //   const trimmed = item.slice(1);
+      chart.clearHighlighting();
+    //   chart.setUpToTheRootHighlighted(trimmed).render().fit();
+      chart.setUpToTheRootHighlighted(item).render().fit();
+    }
+  };
+
+  var chart = null;
+
+
+  d3.csv(
+    'orgData_ojs.csv'
+  ).then((data) => {
+    chart = new d3.OrgChart()
+      .nodeHeight((d) => 93 + 30) //80
+      .nodeWidth((d) => 170 + 2) //220
+      .childrenMargin((d) => 50) //50
+      .compactMarginBetween((d) => 30) //35
+      .compactMarginPair((d) => 30) //30
+      .neighbourMargin((a, b) => 20) //20
+      .nodeUpdate(function () {
+        // Needed to disable default highlight behavior
+        d3.select(this).select('.node-rect').attr('stroke', 'none');
+      })
+      .nodeContent(function (d, i, arr, state) {
+        const color = '#FFFFFF';
+        const imageDiffVert = 25 + 2;
+        return `
+                <div style='width:${d.width}px;
+                            height:${d.height}px; 
+                            padding-top:${imageDiffVert - 2}px;
+                            padding-left:1px;padding-right:1px'>
+                        <div style="font-family: 'Inter', sans-serif;background-color:${color};  
+                        margin-left:-1px;
+                        width:${d.width - 2}px;
+                        height:${d.height - imageDiffVert}px;
+                        border-radius:10px;
+                        border: ${d.data._highlighted || d.data._upToTheRootHighlighted ? '5px solid #E27396"' : '1px solid #E4E2E9"'} >
+                        <div class="stimtype" style="display:flex;justify-content:flex-end;margin-top:5px;margin-right:8px">${
+                            d.data.id
+                        }</div>
+
+                        <div style="font-size:120%;color:#08011E;margin-left:10px;margin-top:3px">  ${
+                            d.data.name
+                        } </div>
+
+                        <div style="font-size:110%;color:#716E7B;margin-left:10px;margin-top:3px;"> ${
+                            d.data.position
+                        } </div>
+
+                        </div>
+                    </div>
+                            `;
+      })
+      .container('.chart-container')
+      .data(data)
+      .render();
+  });
+</script>
+
+```
+
+
+
+
+
